@@ -1,12 +1,17 @@
 import React from 'react';
-import Header from './components/header';
-import Dictaphone from './components/Speech';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Main from './pages/Main';
+
+
+
 const App = () =>{
     return(
-      <>
-      <Header />
-      <Dictaphone />
-      </>
+      <BrowserRouter>
+ 
+      <Routes>
+        <Route path='/' element={<Main />}></Route>
+      </Routes>
+      </BrowserRouter>
     )
 }
 export default App
