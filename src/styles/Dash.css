@@ -1,0 +1,32 @@
+.dashboard{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: lightcyan;
+}
+
+.chatting{
+    background-color: lightpink;
+    width: 80%;
+    height: 80%;
+    margin:  5% auto;
+    border-radius: 30px;
+}
+
+input{
+    width: 70%;
+    height: 6%;
+    margin-left:10%;
+    background-color: gainsboro;
+    border: 0px;
+    border-radius: 30px;
+}
+
+button{
+    margin-left: 3%;
+    width: 7%;
+    height: 6%;
+    border-radius: 3px;
+}
