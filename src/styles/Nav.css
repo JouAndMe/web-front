@@ -1,0 +1,47 @@
+
+  
+  .navmenu {
+    background-color: rgb(242, 222, 121);
+    position: absolute;
+    height: 90%;
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  
+  
+  li {
+    list-style: none;
+  }
+  
+  nav > ul > li {
+    
+    justify-content:space-between;
+    border-left: 2px solid #606060;
+  
+  }
+  
+  ul > li > span {
+    display: flex;
+    margin: 8px;
+    font-size: 17px;
+  }
+  
+  nav > ul > li > span {
+    display: flex;
+    margin: 8px;
+    font-size: 20px;
+  }
+     
+  ul > li > span:hover {
+    padding-bottom: 5px;
+    background-color: #fbfed3;
+    border: none;
+    font-weight: 600;
+  }
+  
+  

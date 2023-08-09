@@ -1,0 +1,29 @@
+.head {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  padding: 15px 0px;
+  text-align: right;
+}
+
+.headMenu {
+  color: white;
+  margin: 9px;
+  text-decoration: none;
+}
+
+.logo {
+
+  width: 10%;
+  height: 5%;
+}
+
+.img {
+  
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  height: 5%;
+}
+
+
