@@ -13,6 +13,8 @@
     height: 80%;
     margin:  5% auto;
     border-radius: 30px;
+    opacity:0.45; /*투명도*/
+    box-shadow: 1px 1px 1px 1px grey ;
 }
 
 .input-container {
@@ -22,18 +24,22 @@
 .chat-input{
     width: 70%;
     height: 25px;
-    margin-top: 325px;
+    margin-top: 348px;
     margin-left:10%;
-    background-color: gainsboro;
+    background-color: #D9D9D9;
     border: 0px;
     border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px grey ;
+    
 }
 
 .btn-send{
     margin-left: 3%;
-    margin-top: 325px;
+    margin-top: 348px;
     width: 7%;
     height: 25px;
     border-radius: 3px;
     border: 0;
+    background-color: transparent; /*배경색 없음 */
+    opacity: 1; /* 투명도 없음 */
 }
